@@ -12,7 +12,7 @@ export default function skills() {
             <h2 className="skills-tittle">My skills</h2> 
             </div>
             <div className="img-container">
-                <p className='skills-text'>As a self-taught developer, I have spent the last few years learning the technologies listed here.</p>
+            
                 <img className='html-img' src={Html} />
                 <img className='css-img' src={Css} />
                 <img className='js-img' src={javascript} />
