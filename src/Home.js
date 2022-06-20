@@ -11,9 +11,7 @@ import Voxel from './components/voxel';
 
 export default function Home() {
     return(
-    
     <main>
-    <Voxel />
     <Heading />
     <Work />
     <Bio />

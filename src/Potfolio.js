@@ -18,14 +18,14 @@ export default function Portfolio() {
             </div>
         </div>
         <div class="card">
-            <img className='card-image' src={notejet} />
+            <Link to="/project-2"><img className='card-image' src={notejet} /></Link>
             <h3 class="title">Notejet</h3>
             <div className="description">
                 <p>Notejet is a markdown note app</p>
             </div>
         </div>
         <div class="card">
-            <img className='card-image' src={google} />
+        <Link to="/project-3"><img className='card-image' src={google} /></Link>
             <h3 class="title">Card 3</h3>
             <div className="description">
                 <p>this is a description</p>
