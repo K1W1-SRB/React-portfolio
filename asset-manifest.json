@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.05c505ca.css",
-    "main.js": "/React-portfolio/static/js/main.10bdd9f2.js",
+    "main.css": "/React-portfolio/static/css/main.78acc718.css",
+    "main.js": "/React-portfolio/static/js/main.26d366e1.js",
     "static/js/787.28cb0dcd.chunk.js": "/React-portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/movieverse example.PNG": "/React-portfolio/static/media/movieverse example.69d51b816a25516e2edf.PNG",
     "static/media/movieverse example2.PNG": "/React-portfolio/static/media/movieverse example2.19d2174e8a1ef3441a89.PNG",
@@ -18,12 +18,12 @@
     "static/media/google.png": "/React-portfolio/static/media/google.be5bc76e84471477b6f0.png",
     "static/media/k1w1 logo illustator.svg": "/React-portfolio/static/media/k1w1 logo illustator.6561433a9a0c9e297ed6c5cf4a9d5d7b.svg",
     "index.html": "/React-portfolio/index.html",
-    "main.05c505ca.css.map": "/React-portfolio/static/css/main.05c505ca.css.map",
-    "main.10bdd9f2.js.map": "/React-portfolio/static/js/main.10bdd9f2.js.map",
+    "main.78acc718.css.map": "/React-portfolio/static/css/main.78acc718.css.map",
+    "main.26d366e1.js.map": "/React-portfolio/static/js/main.26d366e1.js.map",
     "787.28cb0dcd.chunk.js.map": "/React-portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05c505ca.css",
-    "static/js/main.10bdd9f2.js"
+    "static/css/main.78acc718.css",
+    "static/js/main.26d366e1.js"
   ]
 }
