@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.78acc718.css",
-    "main.js": "/React-portfolio/static/js/main.26d366e1.js",
+    "main.css": "/React-portfolio/static/css/main.ba840175.css",
+    "main.js": "/React-portfolio/static/js/main.8ea7ba5a.js",
     "static/js/787.28cb0dcd.chunk.js": "/React-portfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/movieverse example.PNG": "/React-portfolio/static/media/movieverse example.69d51b816a25516e2edf.PNG",
     "static/media/movieverse example2.PNG": "/React-portfolio/static/media/movieverse example2.19d2174e8a1ef3441a89.PNG",
@@ -16,14 +16,15 @@
     "static/media/notejet example.PNG": "/React-portfolio/static/media/notejet example.b4f45881ca2944d18411.PNG",
     "static/media/notejet example2.PNG": "/React-portfolio/static/media/notejet example2.ec3f4b9a9b3e5c31c56b.PNG",
     "static/media/google.png": "/React-portfolio/static/media/google.be5bc76e84471477b6f0.png",
+    "static/media/graphql.png": "/React-portfolio/static/media/graphql.f6642672ab7b20e467ce.png",
     "static/media/k1w1 logo illustator.svg": "/React-portfolio/static/media/k1w1 logo illustator.6561433a9a0c9e297ed6c5cf4a9d5d7b.svg",
     "index.html": "/React-portfolio/index.html",
-    "main.78acc718.css.map": "/React-portfolio/static/css/main.78acc718.css.map",
-    "main.26d366e1.js.map": "/React-portfolio/static/js/main.26d366e1.js.map",
+    "main.ba840175.css.map": "/React-portfolio/static/css/main.ba840175.css.map",
+    "main.8ea7ba5a.js.map": "/React-portfolio/static/js/main.8ea7ba5a.js.map",
     "787.28cb0dcd.chunk.js.map": "/React-portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78acc718.css",
-    "static/js/main.26d366e1.js"
+    "static/css/main.ba840175.css",
+    "static/js/main.8ea7ba5a.js"
   ]
 }
