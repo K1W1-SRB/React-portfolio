@@ -1,5 +1,5 @@
-import movieverseblack from './images/movieverse example.PNG'
-import movieverseblack2 from './images/movieverse example2.PNG'
+import movieverseblack from '../images/movieverse example.PNG'
+import movieverseblack2 from '../images/movieverse example2.PNG'
 
 export default function project1() {
     return(

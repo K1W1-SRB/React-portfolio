@@ -2,12 +2,12 @@ import logo from '../images/k1w1 logo illustator.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLightbulb } from '@fortawesome/free-solid-svg-icons'
 import {BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Home from '../Home'
-import Portfolio from '../Potfolio';
-import Post from '../Post'
+import Home from '../pages/Home'
+import Portfolio from '../pages/Potfolio';
+import Post from '../pages/Posts'
 import React from 'react';
-import Project1 from '../project1'
-import Project2 from '../project2'
+import Project1 from '../pages/project1'
+import Project2 from '../pages/project2'
 
 export default function Navbar(props) {
 

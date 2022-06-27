@@ -1,5 +1,5 @@
-import Notejetblack from './images/notejet example.PNG'
-import Notejetblack2 from './images/notejet example2.PNG'
+import Notejetblack from '../images/notejet example.PNG'
+import Notejetblack2 from '../images/notejet example2.PNG'
 
 export default function project2() {
     return(

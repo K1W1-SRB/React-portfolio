@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-color: rgb(32, 32, 35);
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Space Mono', monospace;
   padding: 10px;
 }
 
@@ -12,7 +12,7 @@ p {
 }
 
 main {
-  width: 800px;
+  width: 700px;
   margin: 0 auto
 }
 
@@ -234,6 +234,8 @@ nav ul li a:hover{
 .Previewcard-container{
   display: flex;
   flex-direction: row;
+  position: relative;
+  right: 35px;
 }
 
 .previewtext-container{
@@ -251,7 +253,7 @@ nav ul li a:hover{
 
 .card {
   margin-top: 25px;
-  width: 250px;
+  width: 225px;
   display: flex;
   flex-direction: column;
   padding: 0px 10px;
@@ -330,21 +332,25 @@ nav ul li a:hover{
 .html-img {
   grid-area: html;
   width: 150px;
+  height: 150px;
 }
 
 .css-img {
   grid-area: css;
   width: 150px;
+  height: 150px;
 }
 
 .js-img {
   grid-area: js;
   width: 150px;
+  height: 150px;
 }
 
 .react-img {
   grid-area: react;
   width: 150px;
+  height: 150px;
 }
 
 .python-img{
@@ -409,4 +415,8 @@ nav ul li a:hover{
   width: 100%;
   margin: 10px auto;
   border-radius: 10px;
+}
+
+.home-preview {
+  width: 800px;
 }

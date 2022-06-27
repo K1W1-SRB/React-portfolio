@@ -1,7 +1,7 @@
-import google from './images/google.png'
-import movieverse from './images/movie logo.png'
-import notejet from './images/notejet logo.PNG'
-import Fotter from './components/Fotter'
+import google from '../images/google.png'
+import movieverse from '../images/movie logo.png'
+import notejet from '../images/notejet logo.PNG'
+import Fotter from '../components/Fotter'
 import { Link } from 'react-router-dom'
 
 export default function Portfolio() {
