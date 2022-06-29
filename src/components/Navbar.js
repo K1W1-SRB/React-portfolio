@@ -16,7 +16,7 @@ export default function Navbar(props) {
         <Router>
             <nav >
               <div className='logo_text'>
-                <Link to="/Home"><img src={logo} className="logo" /></Link>
+                <Link to="/React-portfolio"><img src={logo} className="logo" /></Link>
               </div>
             <ul>
               <li>
@@ -31,7 +31,7 @@ export default function Navbar(props) {
             </nav>
 
       <Switch>
-            <Route exact path="/Home">
+            <Route exact path="/React-portfolio">
               <Home />
             </Route>
             <Route path="/Portfolio">
