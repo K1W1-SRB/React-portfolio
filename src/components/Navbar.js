@@ -8,7 +8,6 @@ import Post from '../pages/Posts'
 import React from 'react';
 import Project1 from '../pages/project1'
 import Project2 from '../pages/project2'
-import {id} from './blog'
 
 export default function Navbar(props) {
 
