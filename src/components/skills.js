@@ -1,25 +1,30 @@
-import Html from '../images/html.png'
-import Css from '../images/css.png'
-import javascript from '../images/Javascript.png'
-import React from '../images/React.png'
-import Node from '../images/ex.png'
-import ex from '../images/node.png'
+import { motion } from "framer-motion";
+import { useRef, useEffect, usestate } from "react";
+import images from '../images'
 
-export default function skills() {
+function skills() {
+
+
     return(
         <div className="skills-container">
             <div className='skills-tittle-container'>
             <h2 className="skills-tittle">My skills</h2> 
             </div>
-            <div className="img-container">
             
-                <img className='html-img' src={Html} />
-                <img className='css-img' src={Css} />
-                <img className='js-img' src={javascript} />
-                <img className='react-img' src={React} />
-                <img className='django-img' src={Node} />
-                <img className='python-img' src={ex} />
-            </div>
+            <motion.div className='carousel'>
+                <motion.div drag="x" dragConstraints={{right: 0, left: -200}} className='inner-carousel'>
+                    {images.map((image) => {
+                        return (
+                            <motion.div className="item" key={image}>
+                                <img src={image} alt="" />
+                            </motion.div>
+                        )
+                    })}
+                </motion.div>
+            </motion.div>
+
         </div>
     )
 }
+
+export default skills;

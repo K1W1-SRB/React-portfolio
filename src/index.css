@@ -420,3 +420,81 @@ nav ul li a:hover{
 .home-preview {
   width: 800px;
 }
+
+.blog-title {
+  font-size: medium;
+  text-decoration: none;
+}
+
+.item {
+  min-width: 6rem;
+  padding: 15px;
+}
+
+.item img{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+  height: 100px;
+  border-radius: 2rem;
+  pointer-events: none;
+}
+
+.inner-carousel {
+  display: flex;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5em auto;
+  width: 600px;
+}
+
+.headerPicture {
+  border-radius: 5px;
+  max-width: 600px;
+  max-height: 400px;
+  margin: 0 auto;
+}
+
+.blog-title {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+.datePublished {
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+.short-description {
+  margin-bottom: 5px;
+  border-bottom: #313134 1px solid
+}
+
+.short-description img {
+  max-width: 600px;
+}
+
+.short-description a {
+  text-decoration: none;
+  color: #39A835;
+}
+
+.blog-heading {
+  font-size: 2rem;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.about-blog {
+  font-size: 1rem;
+  text-align: center;
+}

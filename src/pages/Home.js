@@ -17,9 +17,7 @@ export default function Home() {
     <Hobby />
     <Skills />
     <Socials />
-    <div className='home-preview'>
     <PortfolioPreview /> 
-    </div>
     <Footer />
     </main>
     )

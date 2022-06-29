@@ -1,73 +1,35 @@
-import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import { request } from 'graphql-request';
+import client from "../client"
+import React from "react"
+import Blogs from "../components/blogs"
+import Pfp from "../images/k1w1 logo illustator.svg"
 
-import Post from '../Posts/post';
+export default class Posts extends React.Component {
+    state = {
+        articles: []
+    }
 
-export default function Posts() {
-  const [posts, setPosts] = useState(null);
+    componentDidMount() {
+        client.getEntries()
+            .then((response) => {
+                console.log(response)
+                this.setState({
+                    articles: response.items
+                })
+            })
+            .catch(console.error)
+    }
 
-  useEffect(() => {
-    const fetchPost = async () => {
-      const { posts } = await request(
-        'https://api-eu-west-2.graphcms.com/v2/cl4fmhib408wi01yrau795mzd/master',
-        `
-        {
-          posts {
-            id
-            title
-            datePublished
-            slug
-            content {
-              html
-            }
-            author {
-              name
-              avatar {
-                url
-              }
-            }
-            coverPhoto {
-              publishedAt
-              createdBy {
-                id
-              }
-              url
-            }
-          }
-        }
-    `
-      );
-
-      setPosts(posts);
-    };
-
-
-    fetchPost();
-  }, []);
-
-  return (
-    <div className="Post">
-      <Router>
-        {!posts ? (
-          'Loading'
-        ) : (
-          <React.Fragment>
-            <ul>
-              {posts.map(({ id, title, author, coverPhoto, datePubllished, slug}) => (
-                <li key={id}>
-                  <Link to={`/posts/${slug}`}>{title}</Link>
-                </li>
-              ))}
-            </ul>
-            <Switch>
-              <Route path="/posts/:slug">
-                <Post posts={posts} />
-              </Route>
-            </Switch>
-          </React.Fragment>
-        )}
-      </Router>
-    </div>
-  );
+    render() {
+        return(
+            <div className="blog">
+                <div className="blog-container">
+                    <main className="wrapper">
+                        <h1 className="blog-heading">Blog</h1>
+                        <p className="about-blog">This blog is about my jorney through programing Learning and improvment i will be adding tips i have learned into these blogs so you can learn something to</p>
+                        <Blogs posts={this.state.articles} />
+                    </main>
+                </div>
+            </div>
+        )
+    }
 }

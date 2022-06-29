@@ -8,6 +8,7 @@ import Post from '../pages/Posts'
 import React from 'react';
 import Project1 from '../pages/project1'
 import Project2 from '../pages/project2'
+import {id} from './blog'
 
 export default function Navbar(props) {
 
@@ -16,7 +17,7 @@ export default function Navbar(props) {
         <Router>
             <nav >
               <div className='logo_text'>
-                <Link to="/React-portfolio"><img src={logo} className="logo" /></Link>
+                <Link to="/Home"><img src={logo} className="logo" /></Link>
               </div>
             <ul>
               <li>
@@ -31,7 +32,7 @@ export default function Navbar(props) {
             </nav>
 
       <Switch>
-            <Route exact path="/React-portfolio">
+            <Route exact path="/Home">
               <Home />
             </Route>
             <Route path="/Portfolio">
@@ -48,7 +49,7 @@ export default function Navbar(props) {
             </Route>
             <Route path="/project-3">
               <Post />
-            </Route>
+            </Route>            
         </Switch>
     </Router>
     )
