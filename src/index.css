@@ -24,11 +24,11 @@ body.dark {
  
 
 nav {
-  width: 800;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   padding-top: 10px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 

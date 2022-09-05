@@ -27,7 +27,10 @@ export default function Navbar(props) {
               </li>
               <li><a href='https://github.com/K1W1-SRB' target="_blank">GitHub</a></li>
             </ul>
-              <button className='mode-btn'><FontAwesomeIcon icon={faLightbulb} /></button>
+              <div className='button-container'>
+                <button className='mode-btn'><FontAwesomeIcon icon={faLightbulb} /></button>
+              </div>
+              
             </nav>
 
       <Switch>
