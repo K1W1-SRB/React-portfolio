@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.94e62fdb.css",
-    "main.js": "/React-portfolio/static/js/main.9c7aed3f.js",
+    "main.css": "/React-portfolio/static/css/main.e34b0b32.css",
+    "main.js": "/React-portfolio/static/js/main.bad08f1b.js",
     "static/js/787.28cb0dcd.chunk.js": "/React-portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/capturslider.png": "/React-portfolio/static/media/capturslider.be6c7f309836e315f73a.png",
+    "static/media/captur.png": "/React-portfolio/static/media/captur.e60fa5b096f8d94f21e6.png",
     "static/media/movieverse example.PNG": "/React-portfolio/static/media/movieverse example.69d51b816a25516e2edf.PNG",
     "static/media/movieverse example2.PNG": "/React-portfolio/static/media/movieverse example2.19d2174e8a1ef3441a89.PNG",
     "static/media/movie logo.png": "/React-portfolio/static/media/movie logo.94c5d2ab40e89b9865ab.png",
@@ -15,16 +17,16 @@
     "static/media/html.png": "/React-portfolio/static/media/html.77e8572bf4a205933680.png",
     "static/media/notejet example.PNG": "/React-portfolio/static/media/notejet example.b4f45881ca2944d18411.PNG",
     "static/media/notejet example2.PNG": "/React-portfolio/static/media/notejet example2.ec3f4b9a9b3e5c31c56b.PNG",
-    "static/media/google.png": "/React-portfolio/static/media/google.be5bc76e84471477b6f0.png",
+    "static/media/captur logo.png": "/React-portfolio/static/media/captur logo.e270ad378663cb4c6107.png",
     "static/media/graphql.png": "/React-portfolio/static/media/graphql.f6642672ab7b20e467ce.png",
     "static/media/k1w1 logo illustator.svg": "/React-portfolio/static/media/k1w1 logo illustator.6561433a9a0c9e297ed6c5cf4a9d5d7b.svg",
     "index.html": "/React-portfolio/index.html",
-    "main.94e62fdb.css.map": "/React-portfolio/static/css/main.94e62fdb.css.map",
-    "main.9c7aed3f.js.map": "/React-portfolio/static/js/main.9c7aed3f.js.map",
+    "main.e34b0b32.css.map": "/React-portfolio/static/css/main.e34b0b32.css.map",
+    "main.bad08f1b.js.map": "/React-portfolio/static/js/main.bad08f1b.js.map",
     "787.28cb0dcd.chunk.js.map": "/React-portfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94e62fdb.css",
-    "static/js/main.9c7aed3f.js"
+    "static/css/main.e34b0b32.css",
+    "static/js/main.bad08f1b.js"
   ]
 }
