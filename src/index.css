@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-color: rgb(32, 32, 35);
   color: #fff;
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   padding: 10px;
 }
 
@@ -13,15 +13,13 @@ p {
 
 main {
   width: 700px;
-  margin: 0 auto
+  margin: 0 auto;
 }
-
 
 body.dark {
   background-color: rgb(255, 255, 255);
   color: #292828;
 }
- 
 
 nav {
   width: 100%;
@@ -30,7 +28,6 @@ nav {
   padding-top: 10px;
   justify-content: space-between;
 }
-
 
 nav ul {
   display: flex;
@@ -50,7 +47,7 @@ nav ul li a {
   cursor: pointer;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
   cursor: pointer;
   color: #d2d7df;
 }
@@ -70,7 +67,6 @@ nav ul li a:hover{
   height: 100px;
 }
 
-
 .mode-btn {
   height: 50px;
   width: 50px;
@@ -79,7 +75,6 @@ nav ul li a:hover{
   border: none;
   cursor: pointer;
 }
-
 
 .mode-btn:hover {
   color: #d2d7df;
@@ -94,10 +89,10 @@ nav ul li a:hover{
 
 .name {
   padding-top: 50px;
-  font-size: 1.8rem;;
+  font-size: 1.8rem;
 }
 
-.job{
+.job {
   padding: 0;
   margin: 0;
 }
@@ -147,8 +142,6 @@ nav ul li a:hover{
   margin: 10px;
 }
 
-
-
 .portfolio-btn {
   display: flex;
   align-items: center;
@@ -156,11 +149,11 @@ nav ul li a:hover{
   margin: 0 auto;
   height: 34px;
   width: 200px;
-  background-color: #39A835;
+  background-color: #39a835;
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   color: #ffff;
   margin-top: 25px;
@@ -184,25 +177,23 @@ nav ul li a:hover{
   border-bottom: #d2d7df 4px solid;
 }
 
-
-
-.socials-txt{
-  color: #39A835;
+.socials-txt {
+  color: #39a835;
   padding: 10px;
 }
 
-.socials-txt a{
+.socials-txt a {
   text-decoration: none;
-  color: #39A835;
+  color: #39a835;
 }
 
-.socials-txt a:hover{
+.socials-txt a:hover {
   text-decoration: none;
   color: #42d13d;
   opacity: 0.5;
 }
 
-.icon{
+.icon {
   padding-right: 10px;
 }
 
@@ -231,14 +222,14 @@ nav ul li a:hover{
   text-align: center;
 }
 
-.Previewcard-container{
+.Previewcard-container {
   display: flex;
   flex-direction: row;
   position: relative;
   right: 35px;
 }
 
-.previewtext-container{
+.previewtext-container {
   background: #313134;
   display: flex;
   align-items: center;
@@ -263,12 +254,12 @@ nav ul li a:hover{
 
 .card-image {
   height: 130px;
+  width: 230px;
   border-radius: 5px;
 }
 
 .card .title {
   font-size: 1.2rem;
-  
 }
 
 .description {
@@ -291,26 +282,25 @@ nav ul li a:hover{
   margin-top: 25px;
 }
 
-.img-container{
+.img-container {
   margin-top: 25px;
   margin-bottom: 25px;
   width: 400px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows:  100px 50px 1fr;
-  grid-template-areas: 
+  grid-template-rows: 100px 50px 1fr;
+  grid-template-areas:
     ". html css js"
     "text   .   .  ."
-    ". react python django " 
-  ;
+    ". react python django ";
 }
-.skills-tittle-container{
+.skills-tittle-container {
   display: flex;
   margin: 0 auto;
   flex-direction: column;
 }
 
-.skills-tittle{
+.skills-tittle {
   margin: 0;
   margin-top: 20px;
   align-self: flex-start;
@@ -327,7 +317,6 @@ nav ul li a:hover{
   grid-row-start: 1;
   grid-row-end: 4;
 }
-
 
 .html-img {
   grid-area: html;
@@ -353,7 +342,7 @@ nav ul li a:hover{
   height: 150px;
 }
 
-.python-img{
+.python-img {
   grid-area: python;
   width: 150px;
 }
@@ -370,8 +359,8 @@ nav ul li a:hover{
   flex-direction: column;
 }
 
-.technologies-highlight{
-  color: #39A835;
+.technologies-highlight {
+  color: #39a835;
 }
 
 .movieverse-description {
@@ -383,7 +372,7 @@ nav ul li a:hover{
 }
 
 .movieverse-links a {
-  color: #39A835;
+  color: #39a835;
 }
 
 .movieverse-img {
@@ -408,7 +397,7 @@ nav ul li a:hover{
 }
 
 .Notejet-links a {
-  color: #39A835;
+  color: #39a835;
 }
 
 .Notejet-img {
@@ -431,7 +420,7 @@ nav ul li a:hover{
   padding: 15px;
 }
 
-.item img{
+.item img {
   margin-left: 10px;
   margin-right: 10px;
   width: 100%;
@@ -476,7 +465,7 @@ nav ul li a:hover{
 
 .short-description {
   margin-bottom: 5px;
-  border-bottom: #313134 1px solid
+  border-bottom: #313134 1px solid;
 }
 
 .short-description img {
@@ -485,7 +474,7 @@ nav ul li a:hover{
 
 .short-description a {
   text-decoration: none;
-  color: #39A835;
+  color: #39a835;
 }
 
 .blog-heading {

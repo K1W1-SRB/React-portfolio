@@ -1,4 +1,4 @@
-import google from "../images/google.png";
+import google from "../images/captur logo.png";
 import movieverse from "../images/movie logo.png";
 import notejet from "../images/notejet logo.PNG";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -28,9 +28,9 @@ export default function portfolioPreview() {
         <Link to="/project-3">
           <img className="card-image" src={google} />
         </Link>
-        <h3 class="title">Card 3</h3>
+        <h3 class="title">Captur</h3>
         <div className="description">
-          <p>Notejet is a markdown note app</p>
+          <p>PhotoGraphy portfolio Website</p>
         </div>
       </div>
     </div>
